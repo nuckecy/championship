@@ -9,18 +9,18 @@ $(document).ready(function() {
         },        
         fields: {
             test1: {
-             message: 'The first name is not valid',
+             message: 'The First Name is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'The first name is required and cannot be empty'
+                        message: 'Your First Name is required'
                     },
                     stringLength: {
-                        min: 1,
+                        min: 3,
                         max: 30,
                         message: 'The first name must be more than 1 and less than 30 characters long'
                     },
                     regexp: {
-                        regexp: /^[A-z]+$/,
+                        regexp: /^[A-z -]+$/,
                         message: 'The first name can only accept alphabetical input'
                     },
                 }
@@ -29,15 +29,15 @@ $(document).ready(function() {
                 message: 'Last Name is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'Last Name is required and cannot be empty'
+                        message: 'Your Last Name is required'
                     },
                     stringLength: {
-                        min: 1,
+                        min: 3,
                         max: 30,
                         message: 'Last Name must be more than 1 and less than 30 characters long'
                     },
                     regexp: {
-                        regexp: /^[A-z]+$/,
+                        regexp: /^[A-z -]+$/,
                         message: 'Last Names can only consist of alphabetical characters'
                     },
                 }
@@ -45,21 +45,64 @@ $(document).ready(function() {
             test3: {
                 validators: {
                     notEmpty: {
-                        message: 'The email address is required and cannot be empty'
+                        message: 'The Email Address is required'
                     },
                     emailAddress: {
-                        message: 'The email address is not a valid'
+                        message: 'The Email Address is not a valid'
                     }
                 }
             },
-            // address: {
-            //     message: 'Address is not valid',
-            //     validators: {
-            //         notEmpty: {
-            //             message: 'Address is required and cannot be empty'
-            //         }
-            //     }
-            // }, 
+            test4: {
+                message: 'Team Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Team Name is required'
+                    },
+                    stringLength: {
+                        min: 5,
+                        max: 30,
+                        message: 'Team Name must be more than 1 and less than 30 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Team Name can only consist of alphabetical characters'
+                    },
+                }
+            },
+            test5: {
+                message: 'Contact Address is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Contact Address is required'
+                    },
+                    stringLength: {
+                        min: 10,
+                        max: 50,
+                        message: 'Contact Address must be at least 10 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Team Name cannot contain special characters'
+                    },
+                }
+            }, 
+            test6: {
+                message: 'Mobile Number is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Mobile Number is required'
+                    },
+                    stringLength: {
+                        min: 11,
+                        max: 11,
+                        message: 'Mobile Number must be a valid GSM Number'
+                    },
+                    regexp: {
+                        regexp: /^(\d{11})$/,
+                        message: 'Mobile Number can only consist of numbers'
+                    },
+                }
+            }, 
 
         }
     })

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#a00065">
+    <meta name="msapplication-TileImage" content="https://db6ud9d668pjr.cloudfront.net/web/assets/img/specta-icon.png">
+    <meta name="theme-color" content="#a00065">
+    <link rel="manifest" href="assets/manifest.json">
+
+    <title>SpectaBasic - Step 1 - Specta</title>
+    <meta name="description" content="SpectaBasic Login">
+    <meta name="keywords" content="Loans in 5 minutes">
+    <meta name="author" content="Specta by Sterling Bank Plc">
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/schamp.css">
+    <style type="text/css">
+        .glyphicon-refresh-animate {
+            -animation: spin .7s infinite linear;
+            -webkit-animation: spin2 .7s infinite linear;
+        }
+      
+        @-webkit-keyframes spin2 {
+            from { -webkit-transform: rotate(0deg);}
+            to { -webkit-transform: rotate(360deg);}
+        }
+      
+        @keyframes spin {
+            from { transform: scale(1) rotate(0deg);}
+            to { transform: scale(1) rotate(360deg);}
+        }
+        .help-block { color: red !important; font-weight: 400 !important;}
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="test mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="order-md-1 col-md-4">
+                    <h2><b>Surulere Championship Registration</b></h2>
+                    <hr class="mt-1 mb-3">
+                    <ol>
+                        <li>Registration is Open to the 1st 8 TEAMS.</li>
+                        <li>A Team MUST be 15 players.</li>
+                        <li>Only the COACH or TEAM CAPTAIN will register all the players.</li>
+                        <li>Team members information MUST be provided on the Portal before they are considered a Team.</li>
+                        <li>Portal will close when 8 TEAMS have completed their registration.</li>
+                        <li>Team Member information required are First & Last Names, Email address and Mobile Number</li>
+                    </ol>
+                    <hr class="mt-1 mb-3">
+                    <h6 class="d-flex justify-content-between mb-0 text-uppercase"><span class="text-muted"><b>Number
+                                of Teams Registered</b></span></h6>
+                    <p class="color-specta text-justify mr-3 mb-3 lead">2 TEAMS</p>
+                </div>
+                <div class="order-md-2 col-md-7 bg-light2 p-4 rounded form-flat">
+                    <h4 class="mb-0 color-specta"><b>Let's complete your profile</b></h4>
+                    <hr class="mt-1 mb-3">
+                    <form role="form" id="test-form">
+                        <h4 class="col-12 font-weight-bold">Coach Information</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-2"> 
+                                <label class="mb-0 font-weight-bold" for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" name="test1" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6 mb-2"> 
+                                <label class="mb-0 font-weight-bold" for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="test2" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-6 mb-2"> 
+                                    <label class="mb-0 font-weight-bold" for="lastName">Mobile Number</label>
+                                    <input type="text" class="form-control" id="lastName" name="test6" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 mb-2"> 
+                                    <label class="mb-0 font-weight-bold" for="Email">Email</label>
+                                    <input type="text" class="form-control" id="Email" name="test3" placeholder="Email Address">
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-2"> 
+                                <label class="mb-0 font-weight-bold" for="teamName">Team Name</label>
+                                <input type="email" class="form-control" name="test4" id="teamName" placeholder="Team Name">
+                            </div>
+                            <div class="col-md-6 mb-2"> 
+                                <label class="mb-0 font-weight-bold" for="address">Address</label>
+                                <input type="email" class="form-control" name="test5" id="address" placeholder="Contact Address">
+                            </div>
+                        </div>
+                        <hr class="mt-1 mb-3">
+                        <button class="btn btn-sm btn-block btn-flat" type="submit" id="postForm"><span class="btn-text">Continue</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-2 text-muted text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-4">
+                    <p class="mb-1">© 2018</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- BootstrapValidator CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+    
+    <!-- BootstrapValidator JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    
+    <script src="validate-js.js"></script>
+</body>
+
+</html>
