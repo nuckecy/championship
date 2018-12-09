@@ -57,42 +57,358 @@
                     <p class="color-specta text-justify mr-3 mb-3 lead">2 TEAMS</p>
                 </div>
                 <div class="order-md-2 col-md-7 bg-light2 p-4 rounded form-flat">
-                    <h4 class="mb-0 color-specta"><b>Let's complete your profile</b></h4>
+                    <h4 class="mb-0 color-specta"><b>Please complete the fields below</b></h4>
                     <hr class="mt-1 mb-3">
                     <form role="form" id="test-form">
-                        <h4 class="col-12 font-weight-bold">Coach Information</h4>
+                        <h4 class="col-12 font-weight-bold pl-0">Coach Information</h4>
                         <div class="row">
                             <div class="col-md-6 mb-2"> 
                                 <label class="mb-0 font-weight-bold" for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstName" name="test1" placeholder="First Name">
+                                <input type="text" class="form-control" id="firstName" name="coachfn" placeholder="Coach First Name">
                             </div>
                             <div class="col-md-6 mb-2"> 
                                 <label class="mb-0 font-weight-bold" for="lastName">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" name="test2" placeholder="Last Name">
+                                <input type="text" class="form-control" id="lastName" name="coachln" placeholder="Coach Last Name">
                             </div>
                         </div>
                         <div class="row">
                                 <div class="col-md-6 mb-2"> 
                                     <label class="mb-0 font-weight-bold" for="lastName">Mobile Number</label>
-                                    <input type="text" class="form-control" id="lastName" name="test6" placeholder="Last Name">
+                                    <input type="text" class="form-control" id="lastName" name="coachm" placeholder="Last Name">
                                 </div>
                                 <div class="col-md-6 mb-2"> 
                                     <label class="mb-0 font-weight-bold" for="Email">Email</label>
-                                    <input type="text" class="form-control" id="Email" name="test3" placeholder="Email Address">
+                                    <input type="text" class="form-control" id="Email" name="coachea" placeholder="Email Address">
                                 </div>
                             </div>
                         <div class="row">
                             <div class="col-md-6 mb-2"> 
                                 <label class="mb-0 font-weight-bold" for="teamName">Team Name</label>
-                                <input type="email" class="form-control" name="test4" id="teamName" placeholder="Team Name">
+                                <input type="text" class="form-control" id="teamName" name="teamname" placeholder="Team Name">
                             </div>
                             <div class="col-md-6 mb-2"> 
                                 <label class="mb-0 font-weight-bold" for="address">Address</label>
-                                <input type="email" class="form-control" name="test5" id="address" placeholder="Contact Address">
+                                <input type="text" class="form-control" id="address" name="teamaddr" placeholder="Contact Address">
                             </div>
                         </div>
-                        <hr class="mt-1 mb-3">
-                        <button class="btn btn-sm btn-block btn-flat" type="submit" id="postForm"><span class="btn-text">Continue</span></button>
+
+                        <!-- Player 1 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 1 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn1" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn1" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem1" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 2 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 2 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn2" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn2" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem2" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 3 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 3 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn3" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn3" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem3" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 4 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 4 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn4" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn4" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem4" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+
+                        <!-- Player 5 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 5 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn5" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn5" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem5" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 6 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 6 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn6" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn6" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem6" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 7 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 7 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn7" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn7" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem7" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 8 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 8 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn8" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn8" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem8" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 9 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 9 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn9" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn9" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem9" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 10 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 10 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn10" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn10" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem10" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 11 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 11 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn11" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn11" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem11" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 12 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 12 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn12" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn12" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem12" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 13 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 13 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn13" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn13" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem13" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 14 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 14 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn14" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn14" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem14" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+
+                        <!-- Player 15 Information-->
+                        <div class="players">
+                                <hr class="mt-1 mb-3">
+                                <h5 class="col-12 font-weight-bold pl-0">Player 15 Information</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="fullName">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="playerfn15" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="mobileNum">Mobile Number</label>
+                                        <input type="text" class="form-control" id="mobileNum" name="playermn15" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="col-md-4 mb-2"> 
+                                        <label class="mb-0 font-weight-bold" for="emailAddress">Email</label>
+                                        <input type="text" class="form-control" id="emailAddress" name="playerem15" placeholder="Email Address">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- End Player Info-->
+                        
+                        <button class="btn btn-sm btn-block btn-flat btn-text mt-3" type="submit" id="postForm">Submit Application</button>
                     </form>
                 </div>
             </div>
@@ -109,8 +425,7 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
