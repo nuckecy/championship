@@ -1,40 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-        <title>Post to Google Sheet Demo</title>
-        <!-- bootstrap & fontawesome css -->
-        <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
-      
-        <!-- BootstrapValidator CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
-      
-        <!-- jQuery and Bootstrap JS -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-      
-        <!-- BootstrapValidator JS -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
-</head>
-<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#a00065">
+    <meta name="msapplication-TileImage" content="https://db6ud9d668pjr.cloudfront.net/web/assets/img/specta-icon.png">
+    <meta name="theme-color" content="#a00065">
+    <link rel="manifest" href="assets/manifest.json">
+
+    <title>Registration Successful - Surulere Championship</title>
+    <meta name="description" content="Surulere Championship Games - Powered by RCCG Jubilee Christian Center.">
+    <meta name="keywords" content="Surulere, Lagos, Football competition, surulere football">
+    <meta name="author" content="Otobong Okoko">
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/schamp.css">
+    <style>
+        .test {font-size: 1rem !important;}
+  </style>
 </head>
 
-<body>
-  <div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h2>Success</h2>
-      <p>
-      Thanks for submitting the form - check out the responses submitted in the <a href="https://docs.google.com/spreadsheets/d/1p6X_HejWbIBx3eDDSacNvkVI3vFkFMSq4XW4rUDTyAw/edit?usp=sharing" target="_blank">spreadsheet</a>
-      <p>
+<body class="bg-green">
+    <div class="test mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="order-md-1 col-md-4">
+                    <h2 class="text-white"><b>Surulere Championship Registration</b></h2>
+                    <hr class="mt-1 mb-3 color-white-hr">
+                    <ol class="color-white">
+                        <li>Registration is Open to the 1st 8 TEAMS.</li>
+                        <li>A Team MUST be 15 players.</li>
+                        <li>Only the COACH or TEAM CAPTAIN will register all the players.</li>
+                        <li>Team members information MUST be provided on the Portal before they are considered a Team.</li>
+                        <li>Portal will close when 8 TEAMS have completed their registration.</li>
+                        <li>Team Member information required are First & Last Names, Email address and Mobile Number</li>
+                    </ol>
+                    <hr class="mt-1 mb-3 color-white-hr">
+                    <h6 class="d-flex justify-content-between mb-0 text-uppercase"><span class="color-white"><b>Number of Teams Registered</b></span></h6>
+                    <p class="color-white text-justify mr-3 mb-3 lead">Updating...</p>
+                </div>
+                <div class="order-md-2 col-md-7 bg-light2 p-4 rounded form-flat">
+                    <h4 class="mb-0 color-green"><b>Thank you for Registering</b></h4>
+                    <hr class="mt-1 mb-3">
+                    <div class="row">
+                        <div class="text-center col-md-8 mx-auto">
+                            <img src="assets/img/team-bench.svg" width="30%" alt="Message">
+                            <h3 class="mt-2">Great! Team Registration was successful</h3>
+                            <!-- <p class="mt-2">Please click continue to see your Loan Summary</p> -->
+                        </div>
+                    </div>
+                    <form class="needs-validation" novalidate="">
+                        <div class="col-md-7 col-sm-12 mx-auto mb-3">
+                            <a class="btn btn-sm btn-block btn-flat bg-green" href="index.html"><span class="btn-text">Continue</span></a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <hr>
+    <div class="py-2 text-muted text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-4">
+                    <p class="mb-1 color-white">© 2018 Sterling Bank Plc</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Call Modal -->
+    <div class="modal" id="call-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="padding:1em 1.5em !important;">
+                    <h5 class="modal-title">How to Reach Us!</h5> <button type="button" class="close" data-dismiss="modal">
+                        <span>×</span> </button>
+                </div>
+                <div class="modal-body">
+                    <p>You can reach us on any of the numbers below. <span class="d-block d-sm-none">Tab any number to
+                            call.</span></p>
+                    <a class="lead color-specta" href="tel:08170852820"><i class="fa fa-phone-square color-specta"
+                            aria-hidden="true"></i> 08170852820</a><br>
+                    <a class="lead color-specta" href="tel:08170852815"><i class="fa fa-phone-square color-specta"
+                            aria-hidden="true"></i> 08170852815</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
-
-<footer>
-</footer>
 
 </html>

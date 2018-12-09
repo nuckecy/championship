@@ -439,6 +439,391 @@ $(document).ready(function() {
             }
             },
             //===========================================================================
+
+            // Player 8 =======================================================================
+            playerfn8: {
+                message: 'Player 8 Full Name is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Player 8 Full Name is required'
+                        },
+                        stringLength: {
+                            min: 2,
+                            max: 100,
+                            message: 'Player 8 Full Name must be more than 2 characters long'
+                        },
+                        regexp: {
+                            regexp: /^[A-z -]+$/,
+                            message: 'Player 8 Full Name can only accept alphabetical input'
+                        },
+                    }
+            },
+            playermn8: {
+            message: 'Player 8 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 8 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 8 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 8 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem8: {
+            message: 'Player 8 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 8 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 8 Email Address is not a valid'
+                }
+            }
+            },
+            //===========================================================================
+
+            // Player 9 =======================================================================
+            playerfn9: {
+                message: 'Player 9 Full Name is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: 'Player 9 Full Name is required'
+                        },
+                        stringLength: {
+                            min: 2,
+                            max: 100,
+                            message: 'Player 9 Full Name must be more than 2 characters long'
+                        },
+                        regexp: {
+                            regexp: /^[A-z -]+$/,
+                            message: 'Player 9 Full Name can only accept alphabetical input'
+                        },
+                    }
+            },
+            playermn9: {
+            message: 'Player 9 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 9 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 9 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 9 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem9: {
+            message: 'Player 9 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 9 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 9 Email Address is not a valid'
+                }
+            }
+            },
+            //===========================================================================
+
+            // Player 10 =======================================================================
+            playerfn10: {
+            message: 'Player 10 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 10 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 10 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 10 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn10: {
+            message: 'Player 10 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 10 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 10 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 10 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem10: {
+            message: 'Player 10 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 10 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 10 Email Address is not a valid'
+                }
+            }
+            },
+            //===========================================================================
+
+            // Player 11 =======================================================================
+            playerfn11: {
+                message: 'Player 11 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 11 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 11 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 11 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn11: {
+            message: 'Player 11 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 11 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 11 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 11 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem11: {
+            message: 'Player 11 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 11 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 11 Email Address is not a valid'
+                }
+            }
+            },
+            //=========================================================================== 
+
+            // Player 12 =======================================================================
+            playerfn12: {
+                message: 'Player 12 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 12 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 12 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 12 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn12: {
+            message: 'Player 12 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 12 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 12 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 12 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem12: {
+            message: 'Player 12 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 12 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 12 Email Address is not a valid'
+                }
+            }
+            },
+            //=========================================================================== 
+
+            // Player 13 =======================================================================
+            playerfn13: {
+            message: 'Player 13 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 13 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 13 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 13 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn13: {
+            message: 'Player 13 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 13 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 13 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 13 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem13: {
+            message: 'Player 13 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 13 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 13 Email Address is not a valid'
+                }
+            }
+            },
+            //=========================================================================== 
+
+            // Player 14 =======================================================================
+            playerfn14: {
+            message: 'Player 14 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 14 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 14 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 14 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn14: {
+            message: 'Player 14 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 14 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 14 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 14 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem14: {
+            message: 'Player 14 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 14 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 14 Email Address is not a valid'
+                }
+            }
+            },
+            //=========================================================================== 
+
+            // Player 15 =======================================================================
+            playerfn15: {
+            message: 'Player 15 Full Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Player 15 Full Name is required'
+                    },
+                    stringLength: {
+                        min: 2,
+                        max: 100,
+                        message: 'Player 15 Full Name must be more than 2 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[A-z -]+$/,
+                        message: 'Player 15 Full Name can only accept alphabetical input'
+                    },
+                }
+            },
+            playermn15: {
+            message: 'Player 15 Mobile Number is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 15 Mobile Number is required'
+                },
+                stringLength: {
+                    min: 11,
+                    max: 11,
+                    message: 'Player 15 Mobile Number must be a valid GSM Number'
+                },
+                regexp: {
+                    regexp: /^(\d{11})$/,
+                    message: 'Player 15 Mobile Number can only consist of numbers'
+                },
+            }
+            },
+            playerem15: {
+            message: 'Player 15 Email Address is not valid',
+            validators: {
+                notEmpty: {
+                    message: 'Player 15 Email Address is required'
+                },
+                emailAddress: {
+                    message: 'Player 15 Email Address is not a valid'
+                }
+            }
+            },
+            //=========================================================================== 
+
         }
     })
     .on('success.form.bv', function(e) {
